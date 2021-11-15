@@ -11,3 +11,12 @@
 
 Este projeto tem como objetivo estudar a criação de uma API utilizando o Laravel
 
+### FASRS DO PROJETO
+API DEVELOPMENT - FASE 1 - SEM QUALQUER AUTENTICAÇÃO
+AVAILABLE AUTHEMTICATIONS - JWT. PASSPORT, SANCTUN
+
+### EXEMPLO:
+    TABLE- employees (funcionários)
+    Columns - id, name, email, phone_no, gender, age
+
+composer create-project --prefer-dist laravel/laravel blog

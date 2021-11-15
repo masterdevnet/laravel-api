@@ -19,7 +19,10 @@ Route::get('/', function () {
 });
 
 Route::get("sample", [TestController::class, "sample"]);
+Route::prefix("admin")->group(function() {
+    //...
+});
 
-/* Route::prefix(['middleware' => ["mymiddleware"]], function() {
-
-}) */
+Route::group(['middleware' => ["first", "second"]], function() {
+    //...
+});

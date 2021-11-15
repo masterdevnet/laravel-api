@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get("sample", [TestController::class, "sample"]);
+
+/* Route::prefix(['middleware' => ["mymiddleware"]], function() {
+
+}) */

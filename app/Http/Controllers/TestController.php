@@ -10,7 +10,8 @@ class TestController extends Controller
         // echo "<h1>Bem vindo ao TestController</h1>";
         return view("sample-view", [
             "name" => "MasterDevNet",
-            "email" => "masterdev.net@gmail.com"
+            "email" => "masterdev.net@gmail.com",
+            'fone' => "(84) 9 9115-1003"
         ]);
     }
 }
